@@ -1,0 +1,11 @@
+[push]
+	default = simple
+[user]
+	useConfigOnly = true
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
