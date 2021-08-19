@@ -11,6 +11,7 @@ build-essential \
 jq \
 keepassx \
 net-tools \
+openfortivpn \
 shellcheck
 
 log_success "Installation of extra packages finished"
