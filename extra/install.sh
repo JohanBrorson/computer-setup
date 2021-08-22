@@ -12,6 +12,7 @@ jq \
 keepassx \
 net-tools \
 openfortivpn \
-shellcheck
+shellcheck \
+virtualbox
 
 log_success "Installation of extra packages finished"
