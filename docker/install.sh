@@ -20,4 +20,11 @@ docker-ce-cli
 getent group docker || groupadd docker
 usermod -aG docker "$SUDO_USER"
 
+# Install Docker Compose
+docker_compose_path=/usr/local/bin/docker-compose
+latest_compose_release_url=$(curl -Ls -o /dev/null -w "%{url_effective}" https://github.com/docker/compose/releases/latest)
+latest_compose_release_version=${latest_compose_release_url##*/}
+wget "https://github.com/docker/compose/releases/download/${latest_compose_release_version}/docker-compose-$(uname -s)-$(uname -m)" -O $docker_compose_path
+chmod +x $docker_compose_path
+
 log_success "Installation of Docker finished"
