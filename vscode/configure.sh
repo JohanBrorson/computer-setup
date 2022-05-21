@@ -15,7 +15,6 @@ cp --backup=numbered "$script_dir/settings.json" "$HOME/.config/Code/User/"
 
 extensions=(
   "bitzl.vscode-puppet" \
-  "CoenraadS.bracket-pair-colorizer" \
   "eamodio.gitlens" \
   "esbenp.prettier-vscode" \
   "foxundermoon.shell-format" \
