@@ -11,7 +11,6 @@ build-essential \
 jq \
 keepassx \
 net-tools \
-openfortivpn \
 shellcheck \
 virtualbox
 
