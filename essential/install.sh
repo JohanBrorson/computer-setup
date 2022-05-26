@@ -11,6 +11,7 @@ apt-transport-https \
 ca-certificates \
 curl \
 gnupg \
-lsb-release
+lsb-release \
+vim
 
 log_success "Installation of essential packages finished"
