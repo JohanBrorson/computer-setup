@@ -15,6 +15,7 @@ cp --backup=numbered "$script_dir/settings.json" "$HOME/.config/Code/User/"
 
 extensions=(
   "bitzl.vscode-puppet" \
+  "dbaeumer.vscode-eslint" \
   "eamodio.gitlens" \
   "esbenp.prettier-vscode" \
   "foxundermoon.shell-format" \
@@ -22,12 +23,15 @@ extensions=(
   "kumar-harsh.graphql-for-vscode" \
   "lokalise.i18n-ally" \
   "ms-azuretools.vscode-docker" \
+  "ms-kubernetes-tools.vscode-kubernetes-tools" \
   "ms-python.python" \
   "ms-python.vscode-pylance" \
   "ms-vscode.cmake-tools" \
   "ms-vscode.cpptools" \
   "ms-vsliveshare.vsliveshare" \
+  "redhat.vscode-yaml" \
   "ritwickdey.LiveServer" \
+  "rust-lang.rust" \
   "twxs.cmake" \
   "vadimcn.vscode-lldb" \
   "whatwedo.twig"
