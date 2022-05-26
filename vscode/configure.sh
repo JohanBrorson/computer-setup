@@ -11,6 +11,7 @@ if ! command -v $code_cmd >/dev/null 2>&1; then
   log_failure "$code_cmd is not installed!"
 fi
 
+mkdir -p "$HOME/.config/Code/User/"
 cp --backup=numbered "$script_dir/settings.json" "$HOME/.config/Code/User/"
 
 extensions=(
