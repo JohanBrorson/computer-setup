@@ -12,6 +12,7 @@ fi
 apt-get update
 apt install -y \
 python3-pip \
-python3-venv
+python3-venv \
+flake8
 
 log_success "Installation of Python tools finished"
