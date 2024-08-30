@@ -17,12 +17,12 @@ if [[ -z $SUDO_USER ]]; then
   usage
 fi
 
-"${script_dir}/essential/install.sh"
+"${script_dir}/essential/system-setup.sh"
 
 for directory in "$script_dir"/*; do
   if [ -d "${directory}" ] && [ "$(basename "${directory}")" != "essential" ]; then
-    if [ -f "${directory}/install.sh" ]; then
-      "${directory}/install.sh"
+    if [ -f "${directory}/system-setup.sh" ]; then
+      "${directory}/system-setup.sh"
     fi
   fi
 done

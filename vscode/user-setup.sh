@@ -29,13 +29,12 @@ extensions=(
   "ms-python.vscode-pylance" \
   "ms-vscode.cmake-tools" \
   "ms-vscode.cpptools" \
-  "ms-vsliveshare.vsliveshare" \
   "redhat.vscode-yaml" \
-  "ritwickdey.LiveServer" \
   "rust-lang.rust" \
   "twxs.cmake" \
   "vadimcn.vscode-lldb" \
-  "whatwedo.twig"
+  "bazelbuild.vscode-bazel" \
+  "golang.go"
 )
 
 for extension in "${extensions[@]}"

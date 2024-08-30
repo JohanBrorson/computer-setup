@@ -7,11 +7,7 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 apt-get update
 apt install -y \
-build-essential \
-jq \
-keepassx \
-net-tools \
-shellcheck \
-virtualbox
+  git \
+  gitk
 
-log_success "Installation of extra packages finished"
+log_success "Installation of Git finished"

@@ -7,6 +7,6 @@ _Note!_ Only tested on Ubuntu 20.04.
 ## Usage
 
 ```bash
-sudo ./install.sh
-./configure.sh
+sudo ./system-setup.sh
+./user-setup.sh
 ```
