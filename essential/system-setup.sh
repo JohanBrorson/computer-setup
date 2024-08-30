@@ -7,7 +7,11 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 apt-get update
 apt install -y \
-npm \
-nodejs
+  apt-transport-https \
+  ca-certificates \
+  curl \
+  gnupg \
+  lsb-release \
+  vim
 
-log_success "Installation of web tools finished"
+log_success "Installation of essential packages finished"

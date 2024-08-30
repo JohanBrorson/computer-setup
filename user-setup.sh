@@ -19,8 +19,8 @@ fi
 
 for directory in "$script_dir"/*; do
   if [ -d "${directory}" ]; then
-    if [ -f "${directory}/configure.sh" ]; then
-      "${directory}/configure.sh"
+    if [ -f "${directory}/user-setup.sh" ]; then
+      "${directory}/user-setup.sh"
     fi
   fi
 done
