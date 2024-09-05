@@ -14,6 +14,7 @@ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.clou
 apt-get update
 apt install -y \
   google-cloud-sdk \
+  google-cloud-cli-gke-gcloud-auth-plugin \
   kubectl
 
 log_success "Installation of Google Cloud tools finished"
