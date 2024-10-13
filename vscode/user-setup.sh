@@ -30,7 +30,7 @@ extensions=(
   "ms-vscode.cmake-tools" \
   "ms-vscode.cpptools" \
   "redhat.vscode-yaml" \
-  "rust-lang.rust" \
+  "rust-lang.rust-analyzer" \
   "twxs.cmake" \
   "vadimcn.vscode-lldb" \
   "bazelbuild.vscode-bazel" \
