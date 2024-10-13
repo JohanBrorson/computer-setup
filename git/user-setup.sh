@@ -36,4 +36,13 @@ if ! grep GIT_PS1 "$HOME/.bashrc" >/dev/null; then
   } >> "$HOME/.bashrc"
 fi
 
+git_sizer_path=/opt/git-sizer/git-sizer
+if ! grep "export PATH=\$PATH:${git_sizer_path}" "$HOME/.bashrc" >/dev/null; then
+  {
+    echo "# Add git-sizer to the PATH environment variable"
+    echo "export PATH=\$PATH:${git_sizer_path}"
+    echo ""
+  } >>"$HOME/.bashrc"
+fi
+
 log_success "Configuration of Git finished"
