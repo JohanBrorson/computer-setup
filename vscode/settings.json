@@ -5,6 +5,24 @@
   "editor.guides.bracketPairs":"active",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/bazel-bin": true,
+    "**/bazel-client": true,
+    "**/bazel-out": true,
+    "**/bazel-testlogs": true
+  },
+  "files.watcherExclude": {
+    "**/bazel-bin/**": true,
+    "**/bazel-client/**": true,
+    "**/bazel-out/**": true,
+    "**/bazel-testlogs/**": true
+  },
+  "search.exclude": {
+    "**/bazel-bin": true,
+    "**/bazel-client": true,
+    "**/bazel-out": true,
+    "**/bazel-testlogs": true
+  },
   "[go]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 4,
