@@ -2,7 +2,8 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active",
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [80, 100],
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
@@ -23,18 +24,15 @@
     "**/bazel-out": true,
     "**/bazel-testlogs": true
   },
+  "workbench.startupEditor": "none",
   "[go]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -44,5 +42,15 @@
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

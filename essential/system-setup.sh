@@ -12,6 +12,7 @@ apt install -y \
   curl \
   gnupg \
   lsb-release \
-  vim
+  vim \
+  stow
 
 log_success "Installation of essential packages finished"
