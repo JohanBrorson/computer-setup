@@ -4,8 +4,24 @@
 	useConfigOnly = true
 [core]
 	editor = vim
+	fsmonitor = true
+	untrackedcache = true
 [merge]
 	tool = vimdiff
 	conflictstyle = diff3
 [mergetool]
 	prompt = false
+[feature]
+	manyFiles = true
+[index]
+	version = 4
+	skipHash = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[includeif "gitdir:~/workspace/personal/"]
+	path = ~/.gitconfig.personal
+[includeif "gitdir:~/workspace/work/"]
+	path = ~/.gitconfig.work
