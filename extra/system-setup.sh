@@ -8,6 +8,7 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 apt-get update
 apt install -y \
   build-essential \
+  gdb \
   jq \
   keepassx \
   net-tools \
